@@ -30,7 +30,7 @@ const NavBar = () => {
             setMenu("products");
           }}
         >
-          <Link className="links" to="products">
+          <Link className="links" to="/products">
             Products
           </Link>
           {menu === "products" ? <hr /> : <></>}
@@ -40,7 +40,7 @@ const NavBar = () => {
             setMenu("contact");
           }}
         >
-          <Link className="links" to="contact">
+          <Link className="links" to="/contact">
             Contact
           </Link>
           {menu === "contact" ? <hr /> : <></>}
