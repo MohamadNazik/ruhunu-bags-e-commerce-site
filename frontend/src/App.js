@@ -5,6 +5,7 @@ import Products from "./Pages/Products";
 import Product from "./Pages/Product";
 import Cart from "./Pages/Cart";
 import LoginSignup from "./Pages/LoginSignup";
+import Contact from "./Pages/Contact";
 import NavBar from "./Components/NavBar/NavBar";
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
             <Route path=":productId" element={<Product />} />
           </Route>
           <Route path="/cart" element={<Cart />} />
+          <Route path="/contact" element={<Contact />} />
           <Route path="/login" element={<LoginSignup />} />
         </Routes>
       </BrowserRouter>
